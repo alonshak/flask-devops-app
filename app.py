@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-	return "Hello, Devops! 🎯", 200
+	return "Hello, Devops! 🎯 this is the new and updated version with the help of github actions!!!", 200
 
 @app.get("/health")
 def health():
